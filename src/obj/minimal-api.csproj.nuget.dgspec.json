@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\repos\\minimal-api\\src\\minimal-api.csproj": {}
+    "F:\\Repos\\minimal-api\\src\\minimal-api.csproj": {}
   },
   "projects": {
-    "F:\\repos\\minimal-api\\src\\minimal-api.csproj": {
+    "F:\\Repos\\minimal-api\\src\\minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\repos\\minimal-api\\src\\minimal-api.csproj",
+        "projectUniqueName": "F:\\Repos\\minimal-api\\src\\minimal-api.csproj",
         "projectName": "minimal-api",
-        "projectPath": "F:\\repos\\minimal-api\\src\\minimal-api.csproj",
+        "projectPath": "F:\\Repos\\minimal-api\\src\\minimal-api.csproj",
         "packagesPath": "C:\\Users\\gonti\\.nuget\\packages\\",
-        "outputPath": "F:\\repos\\minimal-api\\src\\obj\\",
+        "outputPath": "F:\\Repos\\minimal-api\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gonti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
